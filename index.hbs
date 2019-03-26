@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Чат</title>
+</head>
+<body>
+   <div class="container">
+        <div class="chat__content chat__content--left">
+            <div class="chat__title-container">
+                <a href=#  class="chat__ico">No photo</a>
+                <div class="chat__title">Добро пожаловать!</div>
+            </div>          
+            <div class="chat__users-tltle">Участники</div>
+            <div class="chat__list-container"></div>
+        </div>
+        <div class="chat__content chat__content--rigth">
+            <ul class="chat__message-container"></ul>
+             <div class="form-container">
+                <form class="chat__form">
+                    <div class="chat__form-row">
+                        <input type="text" class = 'chat__input'  name="message" placeholder = 'Введите сообщение'>
+                        <button type="submit" class = 'chat__send'>Отправить</button>
+                    </div>       
+                </form>
+             </div>         
+        </div>
+   </div>
+    <div class="popup">
+        <div class="popup__title">Авторизация</div>
+            <div class="popup__container">
+                <form class="popup__form">
+                    <div class="popup__form-row">
+                        <input type="text" class = "popup__input" name="name" placeholder = 'ФИО'>
+                        <input type="text" class = "popup__input" name="login" placeholder = 'Ник'>
+                     </div>
+                      <div class="popup__buttons">
+                           <button type="submit" class = "popup__send"> Войти </button> 
+                      </div>                          
+                </form>
+             </div>
+        </div>
+    </div>
+
+    <div class="dropbox">    
+        <div class="dropbox__title">Загрузка фото</div>
+            <div class="dropbox__container">
+                <div class="dropbox__photo"> Перетащите сюда фото</div>
+                 <div class="dropbox__buttons">
+                     <button type="reset" class = "dropbox__cancel"> Отмена </button>
+                     <button type="submit" class = "dropbox__save"> Загрузить </button>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
